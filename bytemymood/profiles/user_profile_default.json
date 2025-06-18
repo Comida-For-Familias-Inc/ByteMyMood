@@ -1,0 +1,33 @@
+{
+  "state": {
+    "city": "",
+    "country": "",
+    "cooking_skill_level": "intermediate",
+    "cooking_time_preference": "30-60 minutes",
+    "diet_type": "omnivore",
+    "allergies": [],
+    "dislikes": [],
+    "current_mood": "",
+    "comfort_foods": [],
+    "energy_boosting_foods": [],
+    "stress_reducing_foods": [],
+    "mood_enhancing_foods": [],
+    "spice_tolerance": "moderate",
+    "sweet_preference": "moderate",
+    "salt_preference": "moderate",
+    "available_equipment": [],
+    "cooking_appliances": [],
+    "utensils": [],
+    "current_recipe": {
+      "name": "",
+      "source_url": "",
+      "ingredients": [],
+      "instructions": [],
+      "prep_time": "",
+      "cook_time": "",
+      "servings": "",
+      "verification_status": "",
+      "is_verified": false
+    }
+  }
+} 
