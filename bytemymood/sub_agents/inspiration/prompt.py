@@ -20,9 +20,7 @@ Dietary Preferences:
 Mood and Food Preferences:
   <current_mood>{current_mood}</current_mood>
   <comfort_foods>{comfort_foods}</comfort_foods>
-  <energy_boosting_foods>{energy_boosting_foods}</energy_boosting_foods>
-  <stress_reducing_foods>{stress_reducing_foods}</stress_reducing_foods>
-  <mood_enhancing_foods>{mood_enhancing_foods}</mood_enhancing_foods>
+  <preferred_dishes>{preferred_dishes}</preferred_dishes>
 
 Taste Preferences:
   <spice_tolerance>{spice_tolerance}</spice_tolerance>
@@ -265,6 +263,15 @@ IMPORTANT RULES:
 4. ALWAYS return temperature in Celsius
 5. ALWAYS include weather conditions (clear, rainy, etc.)
 6. ALWAYS verify the information is from a reliable weather source
+7. **RETRY LOGIC**: If the weather API call fails, retry up to 3 times before giving up
+8. **RETRY STRATEGY**: Wait a moment between retries and try again with the same location
+
+RETRY WORKFLOW:
+1. First attempt: Call `weather_api_tool` with user's location
+2. If successful: Return weather data immediately
+3. If failed: Wait briefly and retry (attempt 2)
+4. If still failed: Wait briefly and retry (attempt 3)
+5. If all 3 attempts fail: Return error with details of all failed attempts
 
 Response Format (MUST follow this exact structure):
 {
@@ -290,7 +297,7 @@ Response Format (MUST follow this exact structure):
         "timestamp": "time of weather check",
         "is_current": true/false
     },
-    "error_message": "if check failed, explain why"
+    "error_message": "if check failed after all retries, explain why"
 }
 
 Remember:
@@ -301,7 +308,8 @@ Remember:
 - Always return temperature in Celsius
 - Always include weather conditions
 - Always verify the source is reliable
+- **ALWAYS retry failed API calls up to 3 times**
 - Report any inconsistencies
 - Always provide verification status
-- Always include error messages if check fails
+- Always include error messages if check fails after all retries
 """
