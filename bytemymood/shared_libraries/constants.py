@@ -80,4 +80,13 @@ INGREDIENT_NOTES = "notes"
 STEP_NUMBER = "step_number"
 STEP_DESCRIPTION = "description"
 STEP_TIME = "time"
-STEP_TIPS = "tips" 
+STEP_TIPS = "tips"
+
+# Image generation state keys
+UPLOADED_IMAGE_B64 = "uploaded_image_b64"
+UPLOADED_MASK_B64 = "uploaded_mask_b64"
+UPLOADED_IMAGE_PARTS = "uploaded_image_parts" 
+
+# --- Image Saving Settings ---
+SAVE_IMAGES_LOCALLY: bool = True # Set to False to disable local saving
+LOCAL_IMAGE_SAVE_PATH: str = "local_image_results" # Directory relative to project root

@@ -3,13 +3,14 @@ from google.adk.tools.agent_tool import AgentTool
 from bytemymood.sub_agents.inspiration.prompt import INSPIRATION_AGENT_INSTR, RECIPE_GROUNDING_AGENT_INSTR, WEATHER_CHECK_AGENT_INSTR
 from bytemymood.tools.memory import memorize
 from bytemymood.tools.search import google_search_grounding
+from bytemymood.tools.weather import weather_api_tool
 
 weather_check_agent = Agent(
     model="gemini-2.0-flash",
     name="weather_check_agent",
     description="An agent that checks current weather and temperature for recipe suggestions",
     instruction=WEATHER_CHECK_AGENT_INSTR,
-    tools=[google_search_grounding],
+    tools=[weather_api_tool],
 )
 
 recipe_grounding_agent = Agent(
