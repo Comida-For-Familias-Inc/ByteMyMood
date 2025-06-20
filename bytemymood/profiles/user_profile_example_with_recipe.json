@@ -1,0 +1,54 @@
+{
+  "state": {
+    "city": "Las Vegas",
+    "country": "US",
+    "cooking_skill_level": "intermediate",
+    "cooking_time_preference": "30-60 minutes",
+    "allergies": ["peanuts"],
+    "dislikes": ["fish"],
+    "current_mood": "",
+    "comfort_foods": ["ice cream", "chocolate", "cake", "cookies", "pizza", "burgers"],
+    "preferred_dishes": ["fried rice", "pho"],
+    "spice_tolerance": "moderate",
+    "sweet_preference": "moderate",
+    "salt_preference": "moderate",
+    "available_equipment": ["mixer", "cutting board", "sous-vide machine", "measuring cups"],
+    "cooking_appliances": ["oven", "stove", "microwave", "toaster", "blender", "food processor", "slow cooker", "instant pot", "air fryer", "pressure cooker", "rice cooker", "sous vide machine", "instant pot", "air fryer", "pressure cooker", "rice cooker", "sous vide machine"],
+    "utensils": ["spoon", "fork", "knife", "chopstick", "spatula", "whisk", "measuring cup", "measuring spoon"],
+    "current_recipe": {
+      "name": "Spicy Thai Basil Chicken Stir-Fry",
+      "source_url": "https://www.allrecipes.com/recipe/285742/spicy-thai-basil-chicken-stir-fry/",
+      "ingredients": [
+        "1 lb boneless, skinless chicken breast, sliced into thin strips",
+        "3 tablespoons vegetable oil",
+        "4 cloves garlic, minced",
+        "2 Thai chili peppers, sliced (or 1 teaspoon red pepper flakes)",
+        "1 red bell pepper, sliced",
+        "1 yellow bell pepper, sliced",
+        "1 cup fresh Thai basil leaves",
+        "2 tablespoons soy sauce",
+        "1 tablespoon fish sauce",
+        "1 tablespoon oyster sauce",
+        "1 teaspoon sugar",
+        "1/2 teaspoon black pepper",
+        "2 green onions, sliced",
+        "1 tablespoon cornstarch mixed with 2 tablespoons water (optional, for thickening)"
+      ],
+      "instructions": [
+        "Heat 2 tablespoons of oil in a large wok or skillet over high heat until smoking hot.",
+        "Add the chicken strips and stir-fry for 3-4 minutes until golden brown and cooked through. Remove from wok and set aside.",
+        "Add the remaining 1 tablespoon of oil to the wok. Add minced garlic and Thai chili peppers, stir-fry for 30 seconds until fragrant.",
+        "Add the bell peppers and stir-fry for 2-3 minutes until slightly softened but still crisp.",
+        "Return the cooked chicken to the wok. Add soy sauce, fish sauce, oyster sauce, sugar, and black pepper. Stir-fry for 1-2 minutes to combine flavors.",
+        "Add the Thai basil leaves and green onions. Stir-fry for 30 seconds until basil is wilted.",
+        "If you prefer a thicker sauce, add the cornstarch mixture and stir until sauce thickens.",
+        "Serve hot over steamed rice or noodles."
+      ],
+      "prep_time": "15 minutes",
+      "cook_time": "10 minutes",
+      "servings": "4",
+      "verification_status": "success",
+      "is_verified": true
+    }
+  }
+} 

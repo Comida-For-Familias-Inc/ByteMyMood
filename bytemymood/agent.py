@@ -1,5 +1,5 @@
 from google.adk.agents import Agent
-from bytemymood.tools.memory import _load_user_profile
+from bytemymood.tools.memory import _load_user_profile, memorize
 from bytemymood.sub_agents.inspiration.agent import inspiration_agent
 from bytemymood.sub_agents.planning.agent import planning_agent
 from bytemymood.sub_agents.execution.agent import execution_agent
@@ -16,8 +16,10 @@ root_agent = Agent(
     sub_agents=[
         inspiration_agent,
         planning_agent,
-        execution_agent,
-
+        execution_agent
+    ],
+    tools=[
+        memorize,
     ],
     before_agent_callback=_load_user_profile,
 )

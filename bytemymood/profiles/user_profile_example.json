@@ -1,0 +1,30 @@
+{
+  "state": {
+    "city": "Las Vegas",
+    "country": "US",
+    "cooking_skill_level": "intermediate",
+    "cooking_time_preference": "30-60 minutes",
+    "allergies": ["peanuts"],
+    "dislikes": ["fish"],
+    "current_mood": "",
+    "comfort_foods": ["ice cream", "chocolate", "cake", "cookies", "pizza", "burgers"],
+    "preferred_dishes": ["fried rice", "pho"],
+    "spice_tolerance": "moderate",
+    "sweet_preference": "moderate",
+    "salt_preference": "moderate",
+    "available_equipment": ["mixer", "cutting board", "sous-vide machine", "measuring cups"],
+    "cooking_appliances": ["oven", "stove", "microwave", "toaster", "blender", "food processor", "slow cooker", "instant pot", "air fryer", "pressure cooker", "rice cooker", "sous vide machine", "instant pot", "air fryer", "pressure cooker", "rice cooker", "sous vide machine"],
+    "utensils": ["spoon", "fork", "knife", "chopstick", "spatula", "whisk", "measuring cup", "measuring spoon"],
+    "current_recipe": {
+      "name": "",
+      "source_url": "",
+      "ingredients": [],
+      "instructions": [],
+      "prep_time": "",
+      "cook_time": "",
+      "servings": "",
+      "verification_status": "",
+      "is_verified": false
+    }
+  }
+} 
