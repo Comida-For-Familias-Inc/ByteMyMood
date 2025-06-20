@@ -27,7 +27,7 @@ Optimal Workflow :
 Only use the `memorize` tool to store user preferences into the following variables:
   - `current_mood`
   - `city` and `country`
-  - `diet_type`, `allergies`, `dislikes`
+  - `allergies`, `dislikes`
   - `spice_tolerance`, `sweet_preference`, `salt_preference`
   - `available_equipment`, `cooking_appliances`, `utensils`
 **Important**: 

@@ -1,0 +1,32 @@
+{
+  "state": {
+    "city": "Arizona",
+    "country": "US",
+    "cooking_skill_level": "intermediate",
+    "cooking_time_preference": "30-60 minutes",
+    "allergies": ["peanuts"],
+    "dislikes": ["fish"],
+    "current_mood": "",
+    "comfort_foods": [],
+    "energy_boosting_foods": [],
+    "stress_reducing_foods": ["ice cream", "chocolate", "cake", "cookies", "pizza", "burgers", "fried chicken", "fried rice", "fried noodles", "fried vegetables", "fried fish", "fried shrimp", "fried pork", "fried beef", "fried chicken", "fried rice", "fried noodles", "fried vegetables", "fried fish", "fried shrimp", "fried pork", "fried beef"],
+    "mood_enhancing_foods": [],
+    "spice_tolerance": "moderate",
+    "sweet_preference": "moderate",
+    "salt_preference": "moderate",
+    "available_equipment": ["oven", "stove", "microwave", "toaster", "blender", "food processor", "slow cooker", "instant pot", "air fryer", "pressure cooker", "rice cooker", "sous vide machine", "instant pot", "air fryer", "pressure cooker", "rice cooker", "sous vide machine"],
+    "cooking_appliances": ["oven", "stove", "microwave", "toaster", "blender", "food processor", "slow cooker", "instant pot", "air fryer", "pressure cooker", "rice cooker", "sous vide machine", "instant pot", "air fryer", "pressure cooker", "rice cooker", "sous vide machine"],
+    "utensils": ["spoon", "fork", "knife", "chopstick", "spatula", "whisk", "measuring cup", "measuring spoon"],
+    "current_recipe": {
+      "name": "",
+      "source_url": "",
+      "ingredients": [],
+      "instructions": [],
+      "prep_time": "",
+      "cook_time": "",
+      "servings": "",
+      "verification_status": "",
+      "is_verified": false
+    }
+  }
+} 
