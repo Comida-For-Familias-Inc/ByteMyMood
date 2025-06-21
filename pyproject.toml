@@ -21,6 +21,12 @@ dependencies = [
     "Pillow>=10.0.0,<11.0.0"
 ]
 
+[project.scripts]
+bytemymood = "bytemymood:app"
+deploy-local = "deployment.local:main"
+deploy-remote = "deployment.remote:main"
+cleanup = "deployment.cleanup:cleanup_deployment"
+
 [project.optional-dependencies]
 dev = [
     "pytest>=8.3.5,<9.0.0",
@@ -34,4 +40,4 @@ deployment = [
 ]
 
 [tool.setuptools]
-packages = ["bytemymood"] 
+packages = ["bytemymood", "deployment"] 

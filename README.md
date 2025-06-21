@@ -120,13 +120,13 @@ gcloud auth application-default login
 #### Command Line Interface
 ```bash
 # Start ByteMyMood CLI
-adk run bytemymood
+uv run adk run bytemymood
 ```
 
 #### Web Interface
 ```bash
 # Launch web interface
-adk web
+uv run adk web
 ```
 
 ## Project Structure
