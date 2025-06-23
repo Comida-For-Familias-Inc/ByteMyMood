@@ -6,3 +6,23 @@ dist/
 *.egg-info/
 local_image_results/
 logs/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# UV cache directory
+.uv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
