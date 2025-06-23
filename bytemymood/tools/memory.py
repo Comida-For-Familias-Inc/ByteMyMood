@@ -25,9 +25,8 @@ from google.adk.tools import ToolContext
 
 from bytemymood.shared_libraries import constants
 
-SAMPLE_PROFILE_PATH = os.getenv(
-    "BYTEMYMOOD_PROFILE", "bytemymood/profiles/user_profile_default.json"
-)
+SAMPLE_PROFILE_PATH = os.path.join(os.path.dirname(__file__), "../user_profiles/user_profile_default.json")
+
 
 
 def memorize_list(key: str, value: str, tool_context: ToolContext):

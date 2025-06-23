@@ -65,7 +65,7 @@ class TestByteMyMoodProfile(unittest.TestCase):
         self.tool_context = ToolContext(invocation_context=self.invoc_context)
 
         # Initialize state with default profile values using _set_initial_states
-        profile_path = os.getenv("BYTEMYMOOD_PROFILE", "bytemymood/profiles/user_profile_default.json")
+        profile_path = os.getenv("BYTEMYMOOD_PROFILE", "bytemymood/user_profiles/user_profile_default.json")
         with open(profile_path, "r") as f:
             default_profile = json.load(f)
             _set_initial_states(default_profile["state"], self.tool_context.state)
@@ -73,7 +73,7 @@ class TestByteMyMoodProfile(unittest.TestCase):
     def test_default_profile_initialization(self):
         """Test default profile initialization."""
         # Check if default profile exists
-        profile_path = os.getenv("BYTEMYMOOD_PROFILE", "bytemymood/profiles/user_profile_default.json")
+        profile_path = os.getenv("BYTEMYMOOD_PROFILE", "bytemymood/user_profiles/user_profile_default.json")
         self.assertTrue(os.path.exists(profile_path))
 
         # Load and verify default profile structure
